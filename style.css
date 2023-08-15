@@ -1,0 +1,98 @@
+*{
+     box-sizing: border-box;
+     padding: 0%;
+} 
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    color: white;   
+    padding-left: 80px; 
+    padding-right: 80px;
+    border-radius: 10px;
+}
+.link a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.link{
+    padding-top: 40px;
+}
+.section1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+}
+.section1 img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.section1 h2{
+    color: teal;
+}
+.section2{
+    background-color: teal;
+    color: white;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    display: flex;    
+
+
+}
+.section2_item{
+    width: 35%;
+}
+.books_container{
+    display: flex;
+    text-align: center;
+}
+.section3{
+    display: block;
+    background-color: white;
+    color: teal;
+    display: flex;
+    margin-top: 80px;
+    padding-left: 40px;
+    
+ }   
+.books{
+    background-color: gray;
+    border: 2px solid none;
+    border-radius: 15px;
+    text-align: center;
+    margin: 20px;
+    color: white;
+
+    
+}
+.section3 .books_container .books{
+    background-color: white;
+}
+
+.footer{
+    background-color: teal;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 80px;
+    padding: 80px;
+}
+.footer h2{
+    font-size: smaller;
+    justify-content: space-between;
+}
+.footer img{
+    width: 15px;
+    height: 15px;
+    border-radius: 20%;
+}
+.footer p{
+    font-size: smaller;
+}
